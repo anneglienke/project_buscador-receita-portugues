@@ -27,7 +27,7 @@ for cnpj in listaCnpj["CNPJ"]:
         #if 'atividade_principal' in dicionario:
         #    dados['atividade_principal'] = dicionario['atividade_principal']
         if 'nome' in dicionario:
-            dados["razÃ£o"] = dicionario["nome"]
+            dados["razão"] = dicionario["nome"]
         if 'fantasia' in dicionario:
             dados['fantasia'] = dicionario['fantasia']
         if 'email' in dicionario:
